@@ -1,0 +1,5 @@
+image: ubuntu
+build_script:
+    - mv $RESOURCE/* .
+    - chmod +x ufoptest_v2
+run: ./ufoptest
